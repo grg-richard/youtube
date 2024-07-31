@@ -1,0 +1,134 @@
+header{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 98px;
+    position: fixed;
+    background-color: white;
+    z-index: 100;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.menu-icon{
+    width: 24px;
+    margin: 0px 20px;
+    cursor: pointer;
+    padding: 5px;
+
+}
+.menu-icon:hover{
+    width: 24px;
+    margin: 0px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgb(245, 240, 240);
+}
+.youtube-logo{
+    width: 90px;
+    cursor: pointer;
+}
+
+
+.middle-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    max-width: 680px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.searchbar{
+    border: 1px solid rgba(163, 161, 161,.5);
+    height: 36px;
+    width: 100%;
+    padding: 0 4px 0 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 20px;
+    min-width: 70px;
+    border-start-end-radius: 0px;
+    border-end-end-radius: 0px;
+    box-shadow: inset 0px 1px 2px #eeeeee ;
+}
+
+
+.search-icon {
+    border: 1px solid rgba(163, 161, 161,.5);
+    border-left: none;
+    height: 38px;
+    width: 80px;
+    border-radius: 30px;
+    border-end-start-radius: 0px;
+    border-start-start-radius: 0px;
+    padding: 4px 15px 4px 18px;
+    cursor: pointer;
+}
+
+.voice-search-button{
+    height: 39px;
+    width: 46px;
+    border-radius: 20px;
+    border: none;
+    padding: 4px 6px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.voice-search-icon{
+    height: 24px;
+    margin-top: 3px;
+}
+
+
+.right-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin-right: 25px;
+}
+.upload-icon{
+    margin: 0px 20px;
+    width: 24px;
+    cursor: pointer;
+
+}
+.notify-icon{
+    margin: 0px 15px;
+    width: 24px;
+    cursor: pointer;
+    padding-top: 5px;
+}
+.notify-div{
+    position: relative;
+}
+.notify-count{
+    position: absolute;
+    top: 4px;
+    right: 12px;
+    color: white;
+    background-color: crimson;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 10px;
+    padding: 3px 4px;
+    border-radius: 20px;
+}
+.mypfp{
+    border-radius: 20px;
+    margin: 0px 20px;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+
+

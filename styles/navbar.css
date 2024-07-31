@@ -1,0 +1,78 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 100px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    width: 170px;
+    height: 100%;
+    position: fixed;
+    z-index: 50;
+}
+.nav-elements{
+    display: flex;
+    margin: 11px 10px 11px 20px;
+    align-items: center;
+    padding: 1px 4px;
+    cursor: pointer;
+}
+.nav-elements:hover{
+    background-color: rgb(240, 235, 235);
+    border-radius: 10px;
+    padding: 1px 4px;
+    margin: 11px 10px 11px 20px;
+    border: none;
+}
+.nav-elements:active{
+    background-color: rgb(224, 217, 217);
+    border-radius: 10px;
+    padding: 1px 4px;
+    margin: 11px 10px 11px 20px;
+    border: none;
+}
+.your-details{
+    border-top: 1px solid rgb(172, 163, 163);
+    margin-top: 12px;
+    padding-top: 12px;
+    margin-left: 12px;
+    margin-right: 6px;
+    cursor: pointer;
+
+}
+.icons{
+    margin-right: 20px;
+}
+
+.your-details{
+    display: flex;
+}
+.you-text{
+    font-size: 16px ;
+    margin-left: 10px;
+    margin-right: 8px;
+}
+.greaterthan-icon{
+    width: 16px;
+}
+.your-channel-navicon{
+    width: 24px;
+}
+.bottomline{
+    padding-bottom: 12px ;
+    margin: 10px 10px 0px 20px ;
+    border-bottom: 1px solid rgb(172, 163, 163);
+}
+
+
+
+
+
+
+
+
+
+
